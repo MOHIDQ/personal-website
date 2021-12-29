@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+
+.fback {
+    background: #2D2E31;
+}
+
+.tech:hover {
+    opacity: 0.4;
+}
+
+@media only screen and (max-width: 800px) {
+    .footerText {
+        font-size: 32px !important;
+    }
+    .tech {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 3px;
+        border-color: white;
+    }
+  }

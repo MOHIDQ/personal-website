@@ -1,0 +1,17 @@
+@import '~antd/dist/antd.css';
+
+.back {
+    background: #2D2E31;
+}
+
+@media only screen and (max-width: 800px) {
+    .headerText {
+        font-size: 64px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .headerText {
+        font-size: 42px !important;
+    }
+  }
