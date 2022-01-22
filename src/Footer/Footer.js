@@ -3,8 +3,7 @@ import './Footer.css'
 import { Space, Tooltip } from 'antd';
 import { FaReact, FaJava, FaPython, FaNode, FaHtml5, FaGitAlt } from 'react-icons/fa';
 import {    SiPostgresql, SiMongodb, SiJavascript, SiExpress, SiAmazonaws, SiDocker, SiCsharp, 
-            SiElasticsearch } from 'react-icons/si'
-import { DiDotnet } from 'react-icons/di'
+            SiElasticsearch, SiFirebase } from 'react-icons/si'
 class Footer extends React.Component {
     render() {
         return (
@@ -43,7 +42,7 @@ class Footer extends React.Component {
                             <Tooltip title='C#' mouseEnterDelay={0}>
                               <SiCsharp size="6vw" className='tech' color='#68217A'/>  
                             </Tooltip>
-                            <Tooltip title='ElasticSearch' mouseEnterDelay={0}>
+                            <Tooltip title='Elasticsearch' mouseEnterDelay={0}>
                                 <SiElasticsearch size="6vw" className='tech' color='#49AFA7'/>
                             </Tooltip>
                             
@@ -61,8 +60,8 @@ class Footer extends React.Component {
                             <Tooltip title='Git' mouseEnterDelay={0}>
                               <FaGitAlt size="6vw" className='tech' color='#F34F28'/>  
                             </Tooltip>
-                            <Tooltip title='.NET' mouseEnterDelay={0}>
-                                <DiDotnet size="6vw" className='tech' color='#1284C8'/>
+                            <Tooltip title='Firebase' mouseEnterDelay={0}>
+                                <SiFirebase size="6vw" className='tech' color='#FFCB2D'/>
                             </Tooltip>
                             
                         </Space>

@@ -20,16 +20,19 @@ class Timeline extends React.Component {
                         Java
                     </Badge>
                     <Badge pill bg="secondary" style={{marginRight: 5}}>
-                        Javascript
+                        YAML
                     </Badge>
                     <Badge pill bg="secondary" style={{marginRight: 5}}>
-                        ElasticsearchDB
+                        Elasticsearch
                     </Badge>
                     <Badge pill bg="secondary" style={{marginRight: 5}}>
-                        Jenkins
+                        Ansible
+                    </Badge>
+                    <Badge pill bg="secondary" style={{marginRight: 5}}>
+                        Openshift
                     </Badge>
                     <p></p>
-                    <h5 className="vertical-timeline-element-title">Automation Analyst Developer Co-op @ <span className="rbc">RBC</span></h5>
+                    <h5 className="vertical-timeline-element-title">Automation Developer Co-op @ <span className="rbc">RBC</span></h5>
                     <h6 className="vertical-timeline-element-subtitle">Toronto, ON</h6>
                     <p>
                     Core Banking, Retail Banking, Payment Technology and System Modernization
