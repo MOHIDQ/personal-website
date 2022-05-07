@@ -9,7 +9,30 @@ class Timeline extends React.Component {
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date={<strong>JAN. 2022 - PRESENT</strong>}
+                    date={<strong>MAY. 2022 - PRESENT</strong>}
+                    contentStyle={{borderTop: '5px solid #009FF5'}}
+                    icon={<img src={require("../images/bmo.png")} className="vertical-timeline-element-icon bounce-in"/>}
+                >
+                    <Badge pill bg="secondary" style={{marginRight: 5}}>
+                        NodeJS
+                    </Badge>
+                    <Badge pill bg="secondary" style={{marginRight: 5}}>
+                        AWS
+                    </Badge>
+                    <Badge pill bg="secondary" style={{marginRight: 5}}>
+                        Microservices
+                    </Badge>
+                    <p></p>
+                    <h5 className="vertical-timeline-element-title">Software Developer @ <span className="bmo">BMO</span></h5>
+                    <h6 className="vertical-timeline-element-subtitle">Toronto, ON</h6>
+                    <p>
+                    Payment Technology
+                    </p>
+                    
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date={<strong>JAN. 2022 - APR. 2022</strong>}
                     contentStyle={{borderTop: '5px solid #0050A5'}}
                     icon={<img src={require("../images/rbc.jpeg")} className="vertical-timeline-element-icon bounce-in"/>}
                 >
@@ -35,7 +58,7 @@ class Timeline extends React.Component {
                     <h5 className="vertical-timeline-element-title">Automation Developer Co-op @ <span className="rbc">RBC</span></h5>
                     <h6 className="vertical-timeline-element-subtitle">Toronto, ON</h6>
                     <p>
-                    Core Banking, Retail Banking, Payment Technology and System Modernization
+                    Core Banking and Retail Investments
                     </p>
                     
                 </VerticalTimelineElement>
