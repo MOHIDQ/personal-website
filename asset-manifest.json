@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.4c813098.css",
-    "main.js": "/personal-website/static/js/main.79dd1917.js",
+    "main.css": "/personal-website/static/css/main.aa195bd4.css",
+    "main.js": "/personal-website/static/js/main.57c4c2ea.js",
+    "static/media/bmo.png": "/personal-website/static/media/bmo.9711cfc673f634f228fd.png",
     "static/media/rbc.jpeg": "/personal-website/static/media/rbc.7e8850ebb44bf5b6a327.jpeg",
-    "static/media/Resume.pdf": "/personal-website/static/media/Resume.2f684964019a69e967be.pdf",
+    "static/media/Resume.pdf": "/personal-website/static/media/Resume.bfd2eba98af8aa0e4c05.pdf",
     "static/media/versaterm.jpeg": "/personal-website/static/media/versaterm.3c5348e5cba502d23de0.jpeg",
     "index.html": "/personal-website/index.html",
-    "main.4c813098.css.map": "/personal-website/static/css/main.4c813098.css.map",
-    "main.79dd1917.js.map": "/personal-website/static/js/main.79dd1917.js.map"
+    "main.aa195bd4.css.map": "/personal-website/static/css/main.aa195bd4.css.map",
+    "main.57c4c2ea.js.map": "/personal-website/static/js/main.57c4c2ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c813098.css",
-    "static/js/main.79dd1917.js"
+    "static/css/main.aa195bd4.css",
+    "static/js/main.57c4c2ea.js"
   ]
 }
